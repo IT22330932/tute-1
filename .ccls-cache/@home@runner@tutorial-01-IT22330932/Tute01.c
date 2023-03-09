@@ -7,7 +7,7 @@
 int main() {
 
   int mark1, mark2;
-  float avg;
+  int avg;
 
   printf("Enter 1st marks =");
   scanf("%d", &mark1);
@@ -17,7 +17,7 @@ int main() {
 
     avg= (mark1+mark2)/2;
 
-    printf("avg is : %.2f" , avg);
+    printf("avg is : %d" , avg);
   
   return 0;
 }
